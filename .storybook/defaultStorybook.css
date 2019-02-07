@@ -1,9 +1,7 @@
-.tealContentBox {
+body {
     margin: 0;
     padding: 0;
     background-color: #487eb0;
-    width: 100vw;
-    height: 100vh;
 }
 
 .middle {
