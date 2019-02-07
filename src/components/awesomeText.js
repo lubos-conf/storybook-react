@@ -9,7 +9,6 @@ class AwesomeText extends React.Component{
     }
 
     splitTextToWords(text) {
-        console.log(text);
         const words = text.split(' ');
         return words;
     };
@@ -20,14 +19,11 @@ class AwesomeText extends React.Component{
             <div className="text">
             {
                 words.map((word, wordIndex) => {
-                    console.log(word, wordIndex);
                     return word.split('').map((letter, letterIndex)=> {
                         if(letterIndex == 0) {
-                            console.log(letter, letterIndex);
                             return <span>{letter}</span>;
                         }
                         else {
-                            console.log(letter, letterIndex);
                             return <span key={`${wordIndex} ${letterIndex}`} className="hidden">{letter}</span>;
                         }
                     });

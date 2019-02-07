@@ -4,11 +4,16 @@
   "description": "Trying out react storybook",
   "main": "index.js",
   "dependencies": {
-    "babel-loader": "^8.0.5",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-actions": "^4.1.11",
+    "@storybook/addon-storysource": "^4.1.11",
+    "@storybook/react": "^4.1.11",
+    "babel-loader": "^8.0.5"
+  },
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
