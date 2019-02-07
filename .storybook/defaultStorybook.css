@@ -1,0 +1,16 @@
+.tealContentBox {
+    margin: 0;
+    padding: 0;
+    background-color: #487eb0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

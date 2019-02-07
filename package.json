@@ -1,0 +1,26 @@
+{
+  "name": "storybook-react",
+  "version": "1.0.0",
+  "description": "Trying out react storybook",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.0.5",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lubos-conf/storybook-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lubos-conf/storybook-react/issues"
+  },
+  "homepage": "https://github.com/lubos-conf/storybook-react#readme"
+}
