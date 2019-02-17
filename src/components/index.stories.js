@@ -2,7 +2,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { Button } from '@storybook/react/demo';
-import AwesommeText from './awesomeText';
+import AwesommeText from './awesomeText/awesomeText';
+import ProgressBar from './progressBar/progressBar';
 
 storiesOf('Button', module)
   .add('with text', () => (
@@ -19,3 +20,8 @@ storiesOf('AwesommeText', module)
     .add('with text', () => (
       <AwesommeText text="Lubos Vanicek" />
     ));;
+
+storiesOf('ProgressBar', module)
+  .add('default', () => (
+    <ProgressBar />
+  ))
